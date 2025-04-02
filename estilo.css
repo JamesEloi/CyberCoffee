@@ -1,0 +1,204 @@
+body
+{
+   background-color: hsl(34, 78%, 92%);
+   margin: 0;
+}
+header
+{
+    background-color: hsl(0, 20%, 40%);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.logo-container{
+    position: relative;
+    width: 200px;
+    height: auto;
+
+}
+.titulos{
+    position: relative;
+    text-align: center;
+    font-family: 'Iansui';
+    font-size: 45px;
+    color: hsl(0, 35%, 30%);
+    top: 80px;
+}
+
+
+
+
+pre 
+{
+    
+    font-family: cursive;
+    font-size: 21px;
+    margin-inline-start: 500px; 
+    margin-top: 130px;
+    
+    
+}
+
+.Banners
+{    
+    position:relative;
+    width: 1400px;
+    height: 300px;
+    left: 530px;
+    margin-top: 65px;
+    top: 4px;
+}
+
+
+img.logo-cafe {
+    width: 45px; /* Ajusta o tamanho da logo */
+    position: absolute; /* Permite sobrepor */
+    top: 40px; /* Ajusta a posição verticalmente */
+    left: 38px; /* Ajusta horizontalmente */
+    z-index: 2; /* Garante que fique na frente */
+}
+
+img.logo-hacker {
+    width: 87px; /* Ajusta o tamanho da imagem */
+    position: relative; /* Mantém no fluxo normal */
+    z-index: 1; /* Coloca em um nível mais baixo */
+}
+
+.menu li {
+    display: inline;
+   color: hsl(217, 100%, 40%);
+   font-size: 22px;
+   margin-right: 40px;
+       
+}
+
+.menu ul li a:hover {
+    background: hsl(210, 80%, 82%);
+    color: hsl(240, 100%, 29);
+    font-size: 25px;
+    display: inline;
+}
+
+.imagens_introducao
+{   
+    margin: 0;
+    margin-left: 2px;
+    margin-top: 3px;
+    height: auto;
+    display: flex;
+}
+
+.Apresentacao{
+    
+    width: 319.5px;
+    height: 200px;
+    
+}
+
+.exemplo{
+
+    margin-top: 2000px;
+}
+
+.botao{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: hsl(0, 35%, 30%);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+   margin-left: 1120px;
+   margin-top: 10px;
+}
+
+.anguloimg{
+    transform: rotate(180deg);
+    width: 1000px;
+    height: 300px;
+}
+
+
+.titulos2G{
+    position: relative;
+    text-align: center;
+    font-family: 'Iansui';
+    font-size: 30px;
+    color: hsl(0, 40%, 34%);
+
+}
+.mapa{
+    margin-left: 33.10%;
+    margin-top: 2%;
+}
+.subtitulo_mapa{
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+}
+
+.mapaGeral{
+    background-image: url("image_logos/fundo_mapa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+address{
+    text-align: center;
+}
+
+/*Estilizando o menu*/
+.lista_nossosprodutos{
+    background-color:hsl(34, 78%, 92%); /* Cor de Fundo */
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(251, 237, 219, 0.514);
+}
+
+/*Estilizando a lista*/
+.lista_nossosprodutos ul{
+  list-style: none;
+}
+
+/*estilizando os itens da lista*/
+.lista_nossosprodutos li{
+
+    display: block;
+    margin: 0 0 20px;
+}
+/* Adicionando um marcador personalizado com `content` */
+.lista_nossosprodutos li::before{
+
+    content: "\2605";
+    color: gold;
+    position: absolute;
+    font-size: 20px;
+}
+
+ .lista_nossosprodutos  a{
+    text-decoration: none;
+    color: rgb(18, 5, 43);
+    font-size: 22px;
+    padding: 15px 15px;
+    transition: 0.2s;
+ }
+
+ .lista_nossosprodutos a:hover{
+    background-color: hsla(303, 100%, 51%, 0.452);
+    border-radius: 15px;
+ }
+ h1{
+    text-align: center;
+    font-size: 28px;
+ }
+
+ .imagem_conheca_nossosprodutos{
+    width: 325px;
+    margin: 0;
+    position: absolute;
+    top: 2535px;
+     right:280px;
+ }
