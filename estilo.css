@@ -3,7 +3,7 @@ body
    background-color: hsl(34, 78%, 92%);
    margin: 0;
 }
-header
+.cabecalho
 {
     background-color: hsl(0, 20%, 40%);
     padding: 10px 20px;
@@ -190,10 +190,7 @@ address{
     background-color: hsla(303, 100%, 51%, 0.452);
     border-radius: 15px;
  }
- h1{
-    text-align: center;
-    font-size: 28px;
- }
+
 
  .imagem_conheca_nossosprodutos{
     width: 325px;
@@ -202,3 +199,60 @@ address{
     top: 2535px;
      right:280px;
  }
+
+
+/*Tirando o sublinhado de todos links do site*/
+a{
+    text-decoration: none;
+  }
+ 
+
+
+
+/*Titulo da pagina Produtos onde vai o menu do cardapio*/
+ .titulo_cardapio{
+    position: relative;
+    text-align: center;
+    font-family: 'Iansui';
+    font-size: 42px;
+    color: hsl(0, 30%, 37%);
+ }
+ .titulo_cardapio2{
+    position: relative;
+    text-align: center;
+    font-family: 'Iansui';
+    font-size: 35px;
+    color: hsl(0, 30%, 37%);
+    top: 63px;
+ }
+ /*Aqui vou montar meu menu-cardapio 
+ com bordas*/ 
+.menu_do_cardapio{
+  padding: 10px;
+  margin-top: 120px;
+}
+
+
+.icones_cardapio{
+    
+    width:  200px;
+    height: 200px;
+
+}
+
+.formata_espacodosProdutos{
+
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar linha se não couber na mesma linha */
+    gap: 100px; /* opcional: espaçamento entre as imagens */
+    justify-content: center; /* centraliza horizontalmente */
+     margin-top: 80px;
+}
+
+.formata_iconedoProduto{
+
+    border: 2px solid #8B4513; /* cor marrom café, você pode trocar */
+    border-radius: 8px;
+    padding: 20px;
+    
+}
