@@ -256,3 +256,15 @@ a{
     padding: 20px;
     
 }
+
+.food_names{
+    position: relative;
+    text-align: center;
+    font-family: 'Iansui';
+    font-size: 23.85px;
+    color: hsl(0, 40%, 34%);
+}
+.footer_foto{
+    width: 1000px;
+    height: 400px;
+}
